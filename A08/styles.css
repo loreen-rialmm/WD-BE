@@ -1,0 +1,73 @@
+body,
+html {
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Amatic SC", sans-serif;
+}
+
+.menu {
+    display: none;
+}
+
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/bgInOut1.jpg');
+    min-height: 100%;
+}
+
+.w3-row {
+    margin: 20px 0;
+}
+
+.tablink {
+    padding: 20px 0;
+    font-size: 32px;
+}
+
+.imageIsland {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.islandSDescription {
+    padding: 20px;
+}
+
+.menu p, button {
+    font-size: 32px;
+}
+
+.w3-grayscale img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, brightness 0.3s ease;
+}
+
+.no-grayscale:hover {
+    filter: grayscale(0%) brightness(1.1);
+}
+
+.socials {
+    list-style: none!important;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.socials li {
+    margin: 0 20px;
+}
+
+.socials li:hover {
+    color: #1a1a1a;   
+}
